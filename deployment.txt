@@ -1,0 +1,16 @@
+## frontend
+
+yarn cypress run-ct --record --key 07b3bc61-afa9-4133-bf39-a256a1980d15
+
+docker build -t voyny:alarm-frontend .
+
+docker run -it --rm -p 3000:3000 voyny:alarm-frontend
+
+## management
+
+gradlew clean build  ## has flaky tests
+ 
+docker build -t voyny:alarm-management .
+
+docker run -it --rm -p 8080:8080 voyny:alarm-management
+
