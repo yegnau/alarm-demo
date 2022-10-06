@@ -8,10 +8,9 @@ import org.testcontainers.shaded.com.google.common.util.concurrent.Uninterruptib
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.fail;
 
 @SpringBootTest
-class SecondTests {
+class Tests16 {
 
 	@Test
 	void secondContextLoads() {

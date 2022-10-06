@@ -14,19 +14,19 @@ class FifthTests {
 
 	@Test
 	void secondContextLoads() {
-		Uninterruptibles.sleepUninterruptibly(5, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
 		assertEquals(1,1);
 	}
 
 	@Test
 	void secondContextLoads_1() {
-		Uninterruptibles.sleepUninterruptibly(5, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
 		assertEquals(2,2);
 	}
 
 	@Test
 	void secondContextLoads_2() {
-		Uninterruptibles.sleepUninterruptibly(5, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
 
 
 		assertEquals(2,2);
@@ -34,13 +34,13 @@ class FifthTests {
 
 	@Test
 	void secondContextLoads_3() {
-		Uninterruptibles.sleepUninterruptibly(5, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
 		assertEquals(2,2);
 	}
 
 	@Test
 	void secondContextLoads_4() {
-		Uninterruptibles.sleepUninterruptibly(5, TimeUnit.SECONDS);
+		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
 		assertEquals(2,2);
 	}
 
