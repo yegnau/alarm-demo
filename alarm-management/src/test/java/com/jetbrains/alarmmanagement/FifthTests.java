@@ -46,9 +46,9 @@ class FifthTests {
 
 	@Test
 	void secondContextLoads_5() {
-		if (System.currentTimeMillis() % 2 == 0) {
+		/*if (System.currentTimeMillis() % 2 == 0) {
 			fail("Flaky test");
 
-		}
+		}*/
 	}
 }
