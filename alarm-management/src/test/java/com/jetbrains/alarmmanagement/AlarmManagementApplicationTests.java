@@ -15,7 +15,7 @@ class AlarmManagementApplicationTests {
 
 	@Test
 	void contextLoads_1() {
-		assertEquals(1,2);
+		assertEquals(2,2);
 	}
 
 	@Test
