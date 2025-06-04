@@ -15,7 +15,7 @@ class Tests20 {
 	@Test
 	void secondContextLoads() {
 		Uninterruptibles.sleepUninterruptibly(2, TimeUnit.SECONDS);
-		assertEquals(1,1);
+		assertEquals(0,1);
 	}
 
 	@Test
